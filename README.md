@@ -50,7 +50,7 @@ PeerChat is a real-time chat application built using **React**, **Firebase**, an
 
 - **Frontend**: React (with Vite), Aceternity UI,Tailwind CSS,
 - **Backend**: Firebase (Auth, Firestore, Storage)
-
+- **State Management**: Context API
 ---
 
 ## 🖼️ Screenshots
