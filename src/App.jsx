@@ -1,9 +1,10 @@
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
-import { SideBar } from "./components/build/Sidebar";
+
 import Login from "./pages/Login";
 import AppState from "./context/AppState";
 import { useContext } from "react";
 import AppContext from "./context/AppContext";
+import { SideBar } from "./components/build/SideBar";
 
 function App() {
   const ProtectedRoute = ({ children }) => {
@@ -21,7 +22,7 @@ function App() {
             path="/home"
             element={
               <ProtectedRoute>
-                <SideBar />
+                <SideBar/>
               </ProtectedRoute>
             }
           />
